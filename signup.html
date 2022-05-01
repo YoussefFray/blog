@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.esm.js.map"></script>
+    <script src="js/bootstrap.esm.min.js"></script>
+    <script src="js/bootstrap.esm.min.js.map"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js.map"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/popper.min.js"></script>
+
+
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link href="css/bootstrap.css.map" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.min.css.map" rel="stylesheet" >
+
+    <script src="js/signup.js" ></script>
+
+    <title>signup</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>Sign up</h2>
+          <div class="mb-3 mt-3">
+            <div id="alert"></div>
+            <label for="username">User name:</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" required>
+          </div>
+          <div id="usernameerror"></div>
+          <div class="mb-3">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+          </div>
+          <div id="pwderror"></div>
+          <div class="mb-3">
+            <label for="rpwd">Repeat your password:</label>
+            <input type="password" class="form-control" id="rpwd" placeholder="repeat your password" name="rpswd" required>
+          </div>
+          <div id="pwdrerror"></div>
+          <div class="mb-3">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="your email" name="email" required>
+          </div>
+          <div id="emailerror"></div>
+          <div class="mb-3">
+            <label for="birthday">Birthday:</label>
+            <input type="date" class="form-control" id="birthday" placeholder="birthday" name="birthday" required>
+          </div>
+          <div id="birthdayerror"></div>
+          <div class="mb-3">
+            <label for="img">Profile picture:</label>
+            <input type="file" class="form-control" id="img" placeholder="img" name="img">
+          </div>
+          <div id="imgerror"></div>
+
+          <button type="button" class="btn btn-primary" onclick="signup()">Sign up</button>
+      </div>
+     
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!---->
+    <script src="js/blog.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.esm.js.map"></script>
+    <script src="js/bootstrap.esm.min.js"></script>
+    <script src="js/bootstrap.esm.min.js.map"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js.map"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/popper.min.js"></script>
+       <!---->
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link href="css/bootstrap.css.map" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.rtl.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-grid.rtl.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.rtl.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.min.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.css.map" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-utilities.rtl.min.css.map" rel="stylesheet" >
+
+       <!---->
+    <link rel="shortcut icon" href="#">
+    <title>blog </title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="pictures/Blogger.png" alt="logo" width="70" height="40">
+      <b>Blog</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            
+          </li>
+        </ul>
+        <form class="d-flex">
+          <!--search-->
+<input class="form-control" list="names" id="exampleDataList" placeholder="Type to search...">
+<datalist id="names">
+</datalist>
+<i class="bi bi-search" onclick="profile()">
+  <svg xmlns="http://www.w3.org/2000/svg"  style="margin: 10px;" width="45" height="45" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+  </svg>
+
+</i>
+       
+
+<!-- profile image -->
+          <a class="navbar-brand" href="#"><img src="pictures/Blogger.png" id="pp" alt="logo" width="50" height="auto">
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mt-3">
+<!--post-->
+<div class="form-group">
+  <label for="exampleFormControlTextarea1"><h3>POST</h3></label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" >
+</div>
+</br>
+  <div class="mb-3">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control"  id="url1" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">URL</span>
+    </div>
+  </div>
+ 
+  <div class="input-group mb-3">
+    <select class="custom-select" id="inputGroupSelect02">
+      <option value="Sport">Sport</option>
+      <option value="Art">Art</option>
+      <option value="Politics">Politics</option>
+      <option value="Economie">Economie</option>
+      <option value="News">News</option>
+    </select>
+    <div class="input-group-append">
+      <label class="input-group-text" for="inputGroupSelect02">categories</label>
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Upload</span>
+    </div>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="inputGroupFile01">
+      <label class="custom-file-label" for="inputGroupFile01"></label>
+    </div>
+  </div>  
+
+
+  <div  class="mx-auto" style="width: 100px;">
+  <button type="button" class="btn btn-warning btn-lg" onclick="addPost()">post</button>
+</div>
+<!--Refresh button-->
+<a href="#" class="card-link" onclick="getposts()">Refresh</a>
+</div>
+<!--posts-->
+<div class="container mt-3">
+<div id="post">
+</div>
+</div>
+
+
+
+</div>
+</body>
+</html>
