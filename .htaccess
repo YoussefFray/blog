@@ -1,0 +1,8 @@
+# Prevent Directory Listing
+
+ Options -Indexes
+
+<FilesMatch "\.(c|cpp|py|exe|sh)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
